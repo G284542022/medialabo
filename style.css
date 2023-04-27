@@ -1,0 +1,23 @@
+h1 {
+    color: #3f6c6c;
+    border-bottom-style: solid;
+}
+
+
+
+h3 {
+    color: white;
+    background-color: #3f6c6c;
+}
+
+a:link {
+    color: #78B7B7;
+  }
+  
+  a:visited {
+    color: #ABB778;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
