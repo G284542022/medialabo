@@ -20,6 +20,15 @@ function hantei() {
     
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
     let yoso = 4;
+
+    
+    let span1 = document.querySelector('span#kaisu');
+    // let p1 = document.createElement('p');
+    span1.textContent = kaisu;
+    let span2 = document.querySelector('span#answer');
+    let p2 = document.createElement('p');
+    p2.textContent = answer;
+    
     console.log(kaisu + "回目の予想:" + yoso);
   
   // 課題3-1: 正解判定する
