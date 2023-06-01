@@ -1,0 +1,11 @@
+  h1 {
+    /* color: #239dda; */
+    color: #239dda;
+    text-align: center;
+    border: thick double #624498;
+ }
+
+ div {
+    border-block-end-color:#239dda;
+    writing-mode: horizontal-tb;
+ }

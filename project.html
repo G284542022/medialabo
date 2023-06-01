@@ -5,16 +5,21 @@
         <title>世界の天気</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
         <script src="weather.js" defer></script>
+        <link rel="stylesheet" href="project.css">
     </head>
     <body>
         <h1>世界の天気</h1>
+       
+
+        <label for="tosi">調べたい都市の名前を入力してください</label>
         <input type="text" name="tosi" id="tosi" size="10">
         <button id="print">都市名を検索</button> 
 
-        
-        <p>天気: <span id="weather"></span></p> 
-        <p>最高気温: <span id="temp_max"></span></p>
-        <p>最低気温: <span id="temp_min"></span></p>
+        <ul>
+            <li>天気: <span id="weather"></span></li> 
+            <li>最高気温: <span id="temp_max"></span></li>
+            <li>最低気温: <span id="temp_min"></span></li>
+        </ul>
         
 
     </body>
